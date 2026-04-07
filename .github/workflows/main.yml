@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       -name: do the job
-       run: echo "I am Rithika"
+      run: echo "I am Rithika"
