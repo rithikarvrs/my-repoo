@@ -1,8 +1,9 @@
 name: Rithika
-on: workflow_dispatch:
+on: 
+  workflow_dispatch:
 jobs: 
-   first-job:
-     runs-on: ubuntu-latest
-     steps: 
-       -name: do the job
+  first-job:
+    runs-on: ubuntu-latest
+    steps: 
+      -name: do the job
        run: echo "I am Rithika"
