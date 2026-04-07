@@ -5,5 +5,5 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps: 
-      -name: do the job
-      run: echo "I am Rithika"
+      - name: do the job
+        run: echo "I am Rithika"
