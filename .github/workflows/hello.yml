@@ -9,3 +9,7 @@ jobs:
         run: echo "do ur assignment"
       - name: show date
         run: date
+      - name: list files
+        run: ls 
+      - name: show directory
+        run: uname -a 
