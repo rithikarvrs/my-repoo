@@ -12,6 +12,8 @@ jobs:
       - name: show date
         run: date
       - name: list files
-        run: ls 
+        run: ls -a 
+      - name: list files
+        run: ls -la  
       - name: show directory
         run: uname -a 
