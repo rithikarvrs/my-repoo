@@ -1,0 +1,9 @@
+name: rithu
+on:
+  workflow_dispatch:
+  jobs:
+    today:
+      runs-on: ubuntu-latest
+      steps:
+        - name: complete task
+          run: echo "do ur assignment"
