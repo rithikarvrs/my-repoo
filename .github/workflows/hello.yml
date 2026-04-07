@@ -13,7 +13,7 @@ jobs:
         run: date
       - name: list files
         run: ls -a 
-      - name: list files
+      - name: list detailed files
         run: ls -la  
       - name: show directory
         run: uname -a 
